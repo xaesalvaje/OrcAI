@@ -37,4 +37,4 @@ def scrape_data(url, proxy_manager):
         return page_text
     except Exception as e:
         print(f"Error scraping {url}: {e}")
-        return ""o
+        return ""
